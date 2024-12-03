@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    min-height: 100vh;
+}
+header{
+    padding: 2rem;
+    background-color: black;
+    text-align: center;
+    color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    height: 40px;
+    width: 400px;
+    padding: 1rem;
+}
+.about{
+    height: 400px;
+    width: 800px;
+    padding: 2rem;
+}
+footer{
+    padding: 2rem;
+    background-color: blue;
+    text-align: center;
+    position: sticky;
+    top: 100%;
+    color: wheat;
+}
